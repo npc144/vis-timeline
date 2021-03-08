@@ -49,12 +49,6 @@
     "preparepublish": "npm run contributors:update",
     "prepublishOnly": "npm run contributors:update && npm run build"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "npm test"
-    }
-  },
   "peerDependencies": {
     "@egjs/hammerjs": "^2.0.0",
     "component-emitter": "^1.3.0",
