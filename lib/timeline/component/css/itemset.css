@@ -136,10 +136,10 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .vis-ltr .vis-label.vis-nested-group .vis-inner {
-  padding-left: 150px;
+  padding-left: 0px;
 }
 .vis-rtl .vis-label.vis-nested-group .vis-inner {
-  padding-right: 150px;
+  padding-right: 0px;
 }
 
 .vis-group-level-unknown-but-gte1 {
@@ -150,16 +150,16 @@
 .vis-label.vis-nesting-group:before,
 .vis-label.vis-nesting-group:before {
   display: inline-block;
-  width: 15px;
+  width: 0px;
 }
 .vis-label.vis-nesting-group.expanded:before {
-  content: "\25BC";
+  content: "";
 }
 .vis-label.vis-nesting-group.collapsed:before {
-  content: "\25B6";
+  content: "";
 }
 .vis-rtl .vis-label.vis-nesting-group.collapsed:before {
-  content: "\25C0";
+  content: "";
 }
 /* compensate missing expanded/collapsed indicator, but only at levels > 0 */
 .vis-ltr .vis-label:not(.vis-nesting-group):not(.vis-group-level-0) {
